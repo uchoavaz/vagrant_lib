@@ -69,7 +69,7 @@ Executando o projeto
       
         ssh vagrant@192.168.33.10
   
-  A senha de conexão é 'Vagrant'
+  A senha de conexão é 'vagrant'
 
 
 Resolução do Teste
