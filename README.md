@@ -15,7 +15,7 @@ Configurações da Máquina Virtual
   
   - S.O : Ubuntu 14.04 (Trusty)
   
-  - Ip : 192.168.33.10
+  - IP : 192.168.33.10
     
 Dependências instaladas
 ------------
