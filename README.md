@@ -53,7 +53,7 @@ Executando o projeto
 
   - Baixe o repositório do projeto em um diretório:
   
-        sudo git clone https://github.com/uchoavaz/vagrant_lib.git
+        git clone https://github.com/uchoavaz/vagrant_lib.git
 
    e entre na pasta do projeto :
    
