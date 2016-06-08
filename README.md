@@ -40,7 +40,7 @@ Preparando a Máquina
   
   - Baixar o VirtualBox 5.0 para algum sistema Debian, neste caso foi para o Ubuntu 14.04 x64:
   
-        https://www.virtualbox.org/wiki/Linux_Downloads
+      https://www.virtualbox.org/wiki/Linux_Downloads
 
     , entrar pelo terminal no diretório onde este arquivo foi baixado e executar o comando de instalação(colocar o nome do arquivo):
     
