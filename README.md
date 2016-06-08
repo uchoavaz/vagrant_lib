@@ -7,11 +7,11 @@ Este repositório contem uma biblioteca, escrita em Python, que automatiza a cri
 Configurações da Máquina Virtual
 ------------
 
-  - Memória: 2048 MB
+  - Memória: 1024 MB
 
   - CPU: 2 core
 
-  - HD : 40GB
+  - HD : 40GB (Dinâmico)
     
 Dependências instaladas
 ------------
