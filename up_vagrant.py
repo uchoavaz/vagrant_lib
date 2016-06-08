@@ -21,7 +21,11 @@ COMMANDS = {
     ),
     'vmproject': '    sudo git clone https://github.com/uchoavaz/estagio_genomika.git\n',
     'vmdjango': '    sudo pip install django==1.9.7\n',
-    'vmsqlite': '    sudo apt-get install sqlite3 libsqlite3-dev\n',
+    'vmsqlite': (
+        '    sudo apt-get install sqlite3 libsqlite3-dev &&'
+        'sudo apt-get install libsqlite3-dev\n'
+
+    ),
     'vmprovisionend': '  SHELL\n'
 
 }
