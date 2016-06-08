@@ -14,6 +14,8 @@ Configurações da Máquina Virtual
   - HD : 40GB (Dinâmico)
   
   - S.O : Ubuntu 14.04 (Trusty)
+  
+  - Ip : 192.168.33.10
     
 Dependências instaladas
 ------------
@@ -34,7 +36,7 @@ Preparando a Máquina
   
       https://www.vagrantup.com/downloads.html
 
-  , entrar pelo terminal no diretório onde este arquivo foi baixado e executar o comando de instalação(colocar o nome do arquivo):
+  , entrar pelo terminal no diretório onde este arquivo foi baixado e executar o comando de instalação(colocar o nome do arquivo baixado):
   
       sudo dpkg -i nome_do_arquivo.deb
   
@@ -42,7 +44,7 @@ Preparando a Máquina
   
       https://www.virtualbox.org/wiki/Linux_Downloads
 
-    , entrar pelo terminal no diretório onde este arquivo foi baixado e executar o comando de instalação(colocar o nome do arquivo):
+    , entrar pelo terminal no diretório onde este arquivo foi baixado e executar o comando de instalação(colocar o nome do arquivo baixado):
     
         sudo dpkg -i nome_do_arquivo.deb
 
@@ -62,3 +64,12 @@ Executando o projeto
         sudo python manage.py provision.py
 
  *Sua máquina será montada com as configurações apontadas acima e criará uma pasta ('machines') no diretório raiz do projeto, onde estará o VagrantFile da mesma. O tempo de execução deste processo pode variar pois vai depender da conexão.
+ 
+  - Entrando na máquina via ssh : 
+      
+        ssh vagrant@192.168.33.10
+  
+  A senha de conexão é 'Vagrant'
+
+Executando scripts do Teste da Genomika
+------------
