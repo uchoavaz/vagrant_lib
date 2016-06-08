@@ -28,14 +28,11 @@ Dependências instaladas
 
 Preparando a Máquina
 ------------
+*Este projeto foi testado em uma máquina Ubuntu 14.04 x64
 
-  - Baixar o executável do Vagrant 1.8.1 para Debian(x64) :
+  - Baixar o executável do Vagrant 1.8.1 para o seu S.O(Debian) :
   
-      https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1_x86_64.deb
-    
-  ou para Debian(x86):
-      
-      https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1_i686.deb
+      https://www.vagrantup.com/downloads.html
 
   , entrar pelo terminal no diretório onde este arquivo foi baixado e executar o comando de instalação(colocar o nome do arquivo):
   
@@ -52,5 +49,14 @@ Preparando a Máquina
 Executando o projeto
 ------------
 
-  - Baixe o repositório do projeto :
-    
+  - Baixe o repositório do projeto em um diretório:
+  
+        sudo git clone https://github.com/uchoavaz/vagrant_lib.git
+
+   e entre na pasta do projeto :
+   
+        cd vagrant_lib
+
+  - Execute o comando :
+  
+        sudo python manage.py provision.py
