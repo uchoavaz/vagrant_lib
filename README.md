@@ -60,3 +60,5 @@ Executando o projeto
   - Execute o comando :
   
         sudo python manage.py provision.py
+
+ *Sua máquina será montada com as configurações apontadas acima e criará uma pasta ('machines') no diretório raiz do projeto, onde estará o VagrantFile da mesma. O tempo de execução deste processo pode variar pois vai depender da conexão.
